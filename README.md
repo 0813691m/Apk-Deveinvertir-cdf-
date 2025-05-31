@@ -1,4 +1,8 @@
-# Apk-Deveinvertir-cdf-
+git remote add origin .git add .
+git commit -m "Mon changement"
+git pushgit add .
+git commit -m "Mon changement"
+git push https://github.com/0813691m/Apk-Deveinvertir-cdf-.gi# Apk-Deveinvertir-cdf-
 Apk Deveinvertir cdf 
 Parfait ! Voici un récapitulatif propre et complet de ce que tu dois copier-coller dans ton terminal Git pour mettre ton application à jour correctement sur ton dépôt GitHub :
 
