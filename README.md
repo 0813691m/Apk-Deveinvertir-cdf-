@@ -50,7 +50,7 @@ Un fichier .apk ou .aab
 
 Le dossier complet du projet (/src, /assets, etc.)
 
-Un fichier README.md (optionnel mais conseillé)
+Un fichier md (optionnel mais conseillé)
 
 Le fichier build.gradle ou pubspec.yaml si c’est Flutter
 
@@ -58,13 +58,13 @@ Le fichier build.gradle ou pubspec.yaml si c’est Flutter
 
 ---
 
-✅ Bonus : fichier README.md de base
+✅ Bonus : fichmd de base
 
 Tu peux créer un fichier README.md pour décrire ton projet :
 
-# Smart Dev Investir
+#'DeveInvestir
 
-Ceci est l'application officielle "Smart Dev Investir", une plateforme d'investissement destinée à la République Démocratique du Congo 🇨🇩.
+Ceci est l'application officielle DeveInvestir", une plateforme d'investissement destinée à la République Démocratique du Congo 🇨🇩.
 
 ## Fonctionnalités principales
 - Recharges et retraits via Mobile Money
@@ -94,7 +94,7 @@ Parfait ! Voici une structure complète, propre et professionnelle que tu peux c
 
 ---
 
-✅ Exemple de contenu complet pour ton README.md :
+✅ Exemple de contenu complet pour 
 
 # 📱 Deveinvertir cdf 
 
