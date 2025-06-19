@@ -1,216 +1,89 @@
-git remote add origin .git add .
-git commit -m "Mon changement"
-git pushgit add .
-git commit -m "Mon changement"
-git push https://github.com/0813691m/Apk-Deveinvertir-cdf-.gi# Apk-Deveinvertir-cdf-
-Apk Deveinvertir cdf 
-Parfait ! Voici un récapitulatif propre et complet de ce que tu dois copier-coller dans ton terminal Git pour mettre ton application à jour correctement sur ton dépôt GitHub :
+[19/06, 11:52] mulumbardev: # MonApplication
 
+## Pages Utilisateur
+- index.html : Inscription
+- login.html : Connexion
+- dashboard.html : Accueil utilisateur
+- investissements.html : Investissements en cours
+- transactions.html : Transactions
+- invitations.html : Invitations, profil, rechargement, retrait
+- temoignages.html : Témoignages utilisateurs (photos, durée)
 
----
+## Pages Admin
+- admin.html : Admin
+- agent-retrait.html : Agent de retrait
+- agent-recharge.html : Agent de recharge
+- super-agent.html : Super## Dossiers
+- /public : Pages HTML et images
+- /src : Fichiers JS logiques (Firebase, etc.)
+- /assets : Images, photos témoignages
+- /docs : Documentation
+- /tests : Tests unitaires
 
-✅ Commandes Git complètes à exécuter dans ton terminal :
-
-# 1. Initialise Git (à faire une seule fois dans ton dossier projet)
-git init
-
-# 2. Ajoute tous les fichiers de ton projet
-git add .
-
-# 3. Crée un message de commit
-git commit -m "Ajout de mon application depuis Base Studio"
-
-# 4. Ajoute ton dépôt GitHub (remplace le lien si nécessaire par ton vrai lien GitHub)
-git remote add origin https://github.com/ton-nom-utilisateur/nom-du-depot.git
-
-# 5. Pousse (upload) ton code sur GitHub
-git push -u origin main
-
+## Déploiement
+Déposez tout le dossier `public/ dans un dossier principal (MonApplication).
+2. Fais un clic droit > **Compresser** (ou utiliser zip sur Windows/Mac/Linux).
+3. Téléverse le ZIP sur GitHub ou envoie-le où tu veux.
 
 ---
 
-🧠 Important : à remplacer
-
-Assure-toi de remplacer ce lien par le tien réel :
-
-https://github.com/ton-nom-utilisateur/nom-du-depot.git
-
-Par exemple, si ton lien est :
-
-https://github.com/mulumbardev/smartdev.git
-
-Alors dans la commande 4, tu dois faire :
-
-git remote add origin https://github.com/mulumbardev/smartdev.git
-
-
----
-
-📁 À vérifier dans ton projet avant le git add .
-
-Assure-toi que ton dossier contient :
-
-Un fichier .apk ou .aab
-
-Le dossier complet du projet (/src, /assets, etc.)
-
-Un fichier md (optionnel mais conseillé)
-
-Le fichier build.gradle ou pubspec.yaml si c’est Flutter
-
-
-
----
-
-✅ Bonus : fichmd de base
-
-Tu peux créer un fichier README.md pour décrire ton projet :
-
-#'DeveInvestir
-
-Ceci est l'application officielle DeveInvestir", une plateforme d'investissement destinée à la République Démocratique du Congo 🇨🇩.
-
-## Fonctionnalités principales
-- Recharges et retraits via Mobile Money
-- Système de parrainage
-- Interface administrateur, service client et utilisateurs
-- Investissement avec durée et bénéfices automatiques
-
-## Développé par
-Mulumba Dev – 2025
-
-📩 Contact : annytamulumba@gmail.com
-
-
----
-
-Quand tu as fini ça, dis-moi :
-
-✅ Si tu veux publier maintenant ton APK gratuitement
-
-✅ Ou si tu veux continuer vers Google Play
-
-
-Je continue à t’accompagner jusqu’à la fin.
-
-Parfait ! Voici une structure complète, propre et professionnelle que tu peux copier-coller directement dans ton fichier README.md sur GitHub pour ton dépôt. Ce fichier sert à présenter ton application, expliquer comment l’installer, et donner les informations essentielles.
-
-
----
-
-✅ Exemple de contenu complet pour 
-
-# 📱 Deveinvertir cdf 
-
-Bienvenue sur le dépôt officiel de *** Deveinvertir cdf **, une application mobile et web conçue pour gérer les investissements, les caisses, les retraits et les recharges en toute simplicité.
-
----
-
-## 📌 Fonctionnalités principales
-
-- 🔐 Connexion par rôle (Utilisateur, Service Client, Recharge, Admin)
-- 💰 Système d’investissement avec durée, taux de bénéfice, et compte à rebours automatique
-- 💵 Recharge et retrait via Mobile Money avec règles strictes (min/max)
-- 🎁 Parrainage avec bonus (niveau 1, niveau 2…)
-- 🛡️ Validation manuelle des retraits via Service Client
-- 🧠 PDF explicatif des fonctions pour chaque utilisateur
-- 🌍 Application uniquement en **français**
-
----
-
-## 🧱 Structure du projet
-
-SmartDevInvestir/ ├── README.md               ← Présentation du projet (ce fichier) ├── .gitignore              ← Fichiers à ignorer par Git ├── LICENSE                 ← Licence du projet (MIT, GPL, etc.) ├── requirements.txt        ← Si Python (modules nécessaires) ├── package.json            ← Si JavaScript ou Node.js ├── main.py / index.html    ← Fichier principal (selon technologie) ├── app/ ou src/            ← Code source de l'application │   ├── views.py / App.vue │   ├── models.py │   └── ... ├── assets/                 ← Images, icônes, logos │   └── logo.png ├── docs/                   ← Documentation (optionnel) │   └── installation.md ├── tests/                  ← Tests unitaires (optionnel) │   └── test_main.py └── build/                  ← Fichier APK ou AAB à publier └── smartdevinvestir.apk
-
----
-
-## 🚀 Instructions d’installation locale
-
-### ▶️ Pour un site web statique
-
-1. Cloner le dépôt :
-   ```bash
-   git clone https://github.com/votre-utilisateur/smart-dev-investir.git
-
-2. Ouvrir index.html dans votre navigateur.
-
-
-
-📱 Pour Android (si APK disponible)
-
-1. Télécharger smartdevinvestir.apk dans le dossier build/
-
-
-2. Copier sur votre téléphone
-
-
-3. Installer manuellement
-
-
-
-
----
-
-🛠️ Technologies utilisées
-
-Frontend : HTML / CSS / JS ou Flutter / React Native
-
-Backend : Python / Node.js / Firebase
-
-Base de données : Firebase, MongoDB ou autre
-
-Outils : GitHub, Git, Android Studio
-
-
-
----
-
-👤 Développeur
-
-👨🏾‍💻 Nom : Mulumba Dev
-
-📧 Email : annytamulumba@gmail.com
-
-🌍 Originaire de Ilebo (Kasaï Oriental, RDC)
-
-🔗 Page Facebook | YouTube | TikTok
-
-
-
----
-
-📜 Licence
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
-
-
----
-
-📦 Déploiement futur
-
-Publication sur Google Play Store
-
-Ajout de publicités via Google AdMob (Bannières, Vidéos Récompensées, etc.)
-
-Accès unique par lien (détection automatique du rôle)
-
-
-
----
-
----
-
-### 📂 À faire maintenant sur GitHub :
-
-1. **Créer ou modifier** un fichier `README.md`
-2. Coller le texte ci-dessus
-3. Commit et push vers ton dépôt
-
----
-
-### ✅ Résultat :  
-Ton dépôt GitHub sera **propre, professionnel et prêt à être partagé** avec des collaborateurs, investisseurs, ou même à intégrer dans un Play Store ou site officiel.
-
-Si tu veux, je peux aussi te générer les fichiers `.gitignore`, `LICENSE`, ou même une version de `index.html` ou `package.json` si tu me dis avec quelle techno tu travailles (Python, Flutter, Web ?).
-
-Souhaites-tu que je te génère les fichiers maintenant ?
+## ✅ **Tout est prêt : tu peux copier-coller ou zipper cette structure, ajouter tes contenus, puis pousser sur GitHub pour avoir ton site et ta base pour l'APK Android Studio.**
+
+Si tu veux un exemple ZIP tout prêt à télécharger, précise-le !  
+Si tu veux un contenu de page HTML/JS spécifique, dis-moi laquelle !
+[19/06, 11:53] mulumbardev: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Témoignages | MonApplication</title>
+</head>
+<body>
+  <h1>Témoignages de nos utilisateurs</h1>
+  <div class="temoignage">
+    <img src="assets/user1.jpg" alt="Photo utilisateur 1" width="100">
+    <p><strong>Jean Dupont</strong> <br>
+      “Grâce à ce service, j’ai doublé mon capital en 30 jours !” <br>
+      <em>Durée : 30 jours</em>
+    </p>
+  </div>
+  <div class="temoignage">
+    <img src="assets/user2.jpg" alt="Photo utilisateur 2" width="100">
+    <p><strong>Amina Mbala</strong> <br>
+      “Investissement sûr, paiement rapide après 1 an !” <br>
+      <em>Durée : 1 an</em>
+    </p>
+  </div>
+  <!-- Ajoute plus de témoignages ici -->
+  <a href="dashboard.html">Retour à l'accueil</a>
+  <script src="/src/temoignages.js"></script>
+</body>
+</html>
+[19/06, 11:54] mulumbardev: MonApplication/
+├── README.md
+├── .gitignore
+├── LICENSE
+├── public/
+│   ├── index.html               # Inscription
+│   ├── login.html               # Connexion
+│   ├── dashboard.html           # Accueil utilisateur
+│   ├── investissements.html     # Investissements en cours
+│   ├── transactions.html        # Transactions
+│   ├── invitations.html         # Invitations, profil, rechargement, retrait
+│   ├── temoignages.html         # Témoignages.jpg           # Photo témoignage 2
+│        └── ...
+├── src/
+│   ├── firebase.js              # Config Firebase
+│   ├── auth.js
+│   ├── investissements.js
+│   ├── transactions.js
+│   ├── invitations.js
+│   ├── temoignages.js           admin.js
+│   ├── agent-retrait.js
+│   ├── agent-recharge.js
+│   ├── super-agent.js
+│   ├── directeur.js
+│   └── utils.js
+├── docs/
+│   └── installation.md
+└── tests/
+    └── test_main.js
